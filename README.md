@@ -81,8 +81,7 @@ Both models are evaluated using accuracy score
 
 The results of the models are as follows:
     Logistic Regression:
-
-    Accuracy: 0.78
+        Accuracy: 0.78
 
     Decision Tree:
         Accuracy: 0.81
