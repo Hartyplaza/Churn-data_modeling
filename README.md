@@ -86,7 +86,8 @@ Logistic Regression:
 Accuracy: 0.78
 
 Decision Tree:
-        Accuracy: 0.81
+
+Accuracy: 0.81
         
 
 The decision tree model performs slightly better than The logistic regression model in terms of accuracy 
