@@ -1,8 +1,8 @@
-Customer Churn Prediction
+# Customer Churn Prediction
 
-This repository contains the code and documentation for a customer churn predictioject using logistic regression and decision tree models. The goal of this project is to predict whether a customer will churn (i.e., stop using a service) based on various features.
+This repository contains the code and documentation for a customer churn prediction using logistic regression and decision tree models. The goal of this project is to predict whether a customer will churn (i.e., stop using a service) based on various features.
 
-Table of Contents
+## Table of Contents
 
     Introduction
     Dataset
@@ -12,11 +12,11 @@ Table of Contents
     Results
     Contributing
 
-Introduction
+## Introduction
 
 Customer churn is a critical issue for businesses, as acquiring new customers is often more expensive than retaining existing ones. This project aims to build predictive models to identify customers who are likely to churn, enabling businesses to take proactive measures to retain them.
 
-Dataset
+### Dataset
 The dataset used in this project is from Kaggle's customer churn competition. It contains various features about customers, including demographic information, account information, and service usage details.
 
    Link to the dataset: Kaggle Customer Churn Dataset
@@ -35,7 +35,7 @@ Features include:
     estimated_salary: Estimated annual salary of the customer
     churn: Whether the customer churned (1) or not (0)
 
-Installation
+## Installation
 
 To run this project, you need to have Python and the following libraries installed:
 
@@ -69,14 +69,13 @@ jupyter notebook
 
     Run the notebook CHURN DATASET.ipynb to see the data analysis, model training, and evaluation.
 
-Modeling
-Logistic Regression
+## Modeling
 
-Logistic regression is a linear model used for binary classification problems. It estimates the probability that a given input point belongs to a certain class.
-Decision Tree
+**Logistic Regression** is a linear model used for binary classification problems. It estimates the probability that a given input point belongs to a certain class.
 
-Decision tree is a non-linear model that splits the data into subsets based on feature values. Each node represents a feature, each branch represents a decision rule, and each leaf represents an outcome.
-Evaluation
+**Decision Tree** is a non-linear model that splits the data into subsets based on feature values. Each node represents a feature, each branch represents a decision rule, and each leaf represents an outcome.
+
+### Evaluation
 
 Both models are evaluated using accuracy score
 
@@ -91,6 +90,6 @@ The results of the models are as follows:
 
 The decision tree model performs slightly better than The logistic regression model in terms of accuracy 
 
-Contributing
+### Contributing
 
 Contributions are welcome! Please fork this repository and submit a pull request for any enhancements or bug fixes.
