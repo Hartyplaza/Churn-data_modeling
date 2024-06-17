@@ -19,7 +19,7 @@ Customer churn is a critical issue for businesses, as acquiring new customers is
 ### Dataset
 The dataset used in this project is from Kaggle's customer churn competition. It contains various features about customers, including demographic information, account information, and service usage details.
 
-   Link to the dataset: Kaggle Customer Churn Dataset
+   Link to the dataset: https://www.kaggle.com/datasets/gauravtopre/bank-customer-churn-dataset
 Features include:
 
     customer_id: Unique ID for each customer
